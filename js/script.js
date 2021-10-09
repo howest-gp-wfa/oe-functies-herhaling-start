@@ -1,68 +1,72 @@
 "use strict";
 
-window.addEventListener("load", Initialiseer);
+window.addEventListener("load", initialize);
 
-// Globale variabelen
-var lblOmschrijving1, lblOmschrijving2;
-var txtInput1, txtInput2;
-var hdrFunctionaliteit;
-var divFeedBack;
-var btnVoerUit, btnWinstVerlies, btnDieren, btnTafel, btnTafels;
-var gekozenFunctionaliteit;
-const winstOfVerlies = 'Bereken je winst of verlies...';
-const dieren ='Test je dierenliefde...';
-const tafel= "Toon de tafels van ..." ;
-const tafelVanTot='Toon de tafels van ... tot ...';
+// Global vars
+let lblDescription1, lblDescription2;
+let inpInput1, inpInput2;
+let hdrFunctionality;
+let divFeedback;
+let btnExecute, btnProfitOrLoss, btnAnimals, btnMultiplicationTable, btnMultiplicationTables;
+let selectedFunctionality;
 
-// InitialiseerFunctie (na inlezen HTML)
-function Initialiseer() {
-      KoppelDomElementen();
-      VoegEventHandlersToe();
-      VerbergElementen();
+const PROFIT_OR_LOSS = "Bereken je profit of verlies ...";
+const ANIMALS = "Test je dierenliefde...";
+const TABLE = "Toon de tafel van ..." ;
+const FROM_TABLE_TO_TABLE = "Toon de tafels van ... tot ...";
+
+function initialize() {
+      bindElements();
+      addEventHandlers();
+      hideElements();
 }
 
-function KoppelDomElementen() {
-      // Labels
+function bindElements() {
+      // labels
 
-      // Invoervelden
+      // inputs
 
-      // Headers
+      // headers
 
-      // Divisies
+      // divs
 
-      // Buttons
-
+      // buttons
 }
 
-function VoegEventHandlersToe() {
-
-}
-
-function VerbergElementen() {
+//most event handlers will need anonymous functions!
+function addEventHandlers() {
 
 }
 
-function ToonFunctionaliteit() {
+function hideElements() {
+
+}
+
+function setInputElementsByFunctionality(labelText1, labelText2) {
    
 }
 
-function GeefBedrijfsResultaat() {
+function displayInfo(info) {
 
 }
 
-function GeefNiveauDierenLiefde() {
+function getProfitMessage(buyingPrice, sellingPrice) {
 
 }
 
-function GeefTafelsVanTot() {
+function getAnimalLoveMessage(numberOfPets) {
 
 }
 
-function GeefTafelVan() {
+function generateMultiplicationTablesFromTo(from, to) {
 
 }
 
-function VoerUit() {
+function generateMultiplicationTable(table) {
+
+}
+
+function execute() {
 
 }
 

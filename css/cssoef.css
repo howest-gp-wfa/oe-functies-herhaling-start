@@ -1,5 +1,4 @@
-
-body{
+body {
   line-height: 2em;
 }
 
@@ -13,21 +12,27 @@ label {
   padding: 10px;
 }
 
-#divFunctionaliteit {
+#functionality {
   padding-bottom: 10px;
   font-size: 1.5em;
 }
 
-.tafel{
+.table {
   background-color: aquamarine;
-  border : 1px solid black;
-  padding : 10px;
+  border: 1px solid black;
+  padding: 10px;
   display: inline-block;
   min-width: 100px;
 }
 
 .even {
-  background-color: gainsboro;
+  background-color: gainsboro;  
 }
 
+.hide {
+  display: none;
+}
 
+.show-inline-block {
+  display: inline-block;
+}
